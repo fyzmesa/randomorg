@@ -43,6 +43,12 @@ rounded_float=1
 finalNumber = random_numbers[0]*rounded_float
 print(finalNumber)
 
+if finalNumber < 0.5:
+    print("Heads")
+else:
+    print("Tails")
+
+"""
 if finalNumber < 0.166667:
     print("1")
 elif 0.166667 < finalNumber < 0.333333:
@@ -55,3 +61,4 @@ elif 0.666667 < finalNumber < 0.833334:
     print("5")
 else:
     print("6")
+"""
